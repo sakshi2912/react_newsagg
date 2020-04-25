@@ -1,0 +1,46 @@
+import React, { Component } from 'react'
+import { Link } from "react-router-dom";
+export class Header extends Component {
+    render() {
+        return (
+        <nav className="navbar sticky-top navbar-expand-sm navbar-dark bg-dark " >
+        
+        <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a className="navbar-brand" href="#">NEWS</a>
+            <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li className="navbar-brand ">
+                <Link to="/all">
+               All</Link>
+            </li>
+            <li className="navbar-brand">
+                <Link to="/world">
+               World </Link>
+            </li>
+            <li className="navbar-brand">
+                <Link to="/tech">
+               Tech</Link>
+            </li>
+            <li className="navbar-brand">
+                <Link to="/covid">
+               Covid</Link>
+            </li>
+            <li className="navbar-brand">
+                <Link to="/sports">
+               Sports</Link>
+            </li>
+           
+            <li className="navbar-brand">
+                <Link to="/weather">
+               Weather</Link>
+            </li>
+            
+            
+            </ul>
+            
+        </div>
+        </nav>
+        )
+    }
+}
+
+export default Header
