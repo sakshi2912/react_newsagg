@@ -9,8 +9,8 @@ Packages to be installed in frontend :
  3. Webpack : npm install webpack webpack-cli --save-dev
 
 Configure the packages with : 
- a..babelrc
- b.webpack.config.js
+ a. babelrc
+ b. webpack.config.js
 
 Configure package.json with these scripts :
 
