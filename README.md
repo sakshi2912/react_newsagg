@@ -4,9 +4,12 @@ News Aggregator using React JS and Django
 Create two apps with react as front-end and django as backend 
 
 Packages to be installed in frontend :
- 1. Babel : npm install @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
- 2. React : npm install react react-dom --save-dev
- 3. Webpack : npm install webpack webpack-cli --save-dev
+ 1. Babel
+ > npm install @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+ 2. React 
+ > npm install react react-dom --save-dev
+ 3. Webpack
+ > npm install webpack webpack-cli --save-dev
 
 Configure the packages with : 
  a. babelrc
