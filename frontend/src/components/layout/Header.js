@@ -7,23 +7,23 @@ export class Header extends Component {
        
             <ul>
             <li >
-                <Link to="/all">Latest</Link>
+                <Link to="/all" style={{ textDecoration: 'none'}}>Latest</Link>
             </li>
             <li >
-                <Link to="/world"> World </Link>
+                <Link to="/world" style={{ textDecoration: 'none'}}> World </Link>
             </li>
             <li >
-                <Link to="/tech"> Tech</Link>
+                <Link to="/tech" style={{ textDecoration: 'none'}}> Tech</Link>
             </li>
             <li >
-                <Link to="/covid"> Covid</Link>
+                <Link to="/covid" style={{ textDecoration: 'none'}}> Covid</Link>
             </li>
             <li>
-                <Link to="/sports">Sports</Link>
+                <Link to="/sports" style={{ textDecoration: 'none'}}>Sports</Link>
             </li>
            
             <li>
-                <Link to="/weather">Weather</Link>
+                <Link to="/weather" style={{ textDecoration: 'none'}}>Weather</Link>
             </li>
             
             
